@@ -16,7 +16,7 @@ public class BotBrainGRSh474 implements BotBrain {
   private Bot bot;
 
   public BotBrainGRSh474(){
-    directions = new ArrayList<>(4);
+    directions = new ArrayList<>(5);
     directions.add(RIGHT);
     directions.add(DOWN);
     directions.add(LEFT);
