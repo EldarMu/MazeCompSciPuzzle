@@ -12,10 +12,10 @@ public class DirectionOfBot {
     public DirectionOfBot(int dir){
         now_direction=dir;
         direction = new ArrayList<>(4);
-        direction.add(DOWN);   //0
-        direction.add(LEFT);   //1
-        direction.add(UP);     //2
-        direction.add(RIGHT);  //3
+        direction.add(DOWN);   //3
+        direction.add(LEFT);   //2
+        direction.add(UP);     //1
+        direction.add(RIGHT);  //0
 }
     //запрос направления по часовой стреклке от текущего
     public int[] get_clockwise_rot(){
