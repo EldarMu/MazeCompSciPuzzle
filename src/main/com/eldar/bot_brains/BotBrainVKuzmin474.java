@@ -6,12 +6,12 @@ import com.eldar.Bot;
  *
  * @author Vlad
  */
-public class BotBrains474_Kuzmin_Vladislav_ implements BotBrain
+public class BotBrainVKuzmin474 implements BotBrain
 {
     private Bot bot;
     DirectionOfBot Direction;
 
-  public BotBrains474_Kuzmin_Vladislav_()
+  public BotBrainVKuzmin474()
   {
    Direction = new DirectionOfBot(0);
   }

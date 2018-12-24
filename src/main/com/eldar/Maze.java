@@ -1,7 +1,7 @@
 package com.eldar;
 
 import com.eldar.bot_brains.BotBrain;
-import com.eldar.bot_brains.BotBrainGRSh474;
+import com.eldar.bot_brains.BotBrainEEM;
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
@@ -69,7 +69,7 @@ public class Maze extends JComponent
 
         int index = 0;
         long startTime = System.currentTimeMillis();
-        BotBrain algorithm = new BotBrainGRSh474();
+        BotBrain algorithm = new BotBrainEEM();
         algorithm.solveMaze(ourBot);
         algoRunTime = System.currentTimeMillis() - startTime;
         //algoRunTime/=1000;
